@@ -1,0 +1,25 @@
+12/9/2021 | 15-42: Key.alt
+12/9/2021 | 15-42: Key.tab
+12/9/2021 | 15-42: Key.left
+12/9/2021 | 15-42: Key.left
+12/9/2021 | 15-42: Key.left
+12/9/2021 | 15-42: Key.space
+12/9/2021 | 15-42: Key.left
+12/9/2021 | 15-42: Key.space
+12/9/2021 | 15-42: Key.alt
+12/9/2021 | 15-42: Key.tab
+12/9/2021 | 15-42: '+'
+12/9/2021 | 15-42: Key.ctrl
+12/9/2021 | 15-42: 's'
+12/9/2021 | 15-42: Key.ctrl
+12/9/2021 | 15-42: 'c'
+Traceback (most recent call last):
+  File "keyheri2.py", line 13, in <module>
+    listener.join()
+  File "/home/heri/.local/lib/python3.8/site-packages/pynput/_util/__init__.py", line 252, in join
+    super(AbstractListener, self).join(*args)
+  File "/usr/lib/python3.8/threading.py", line 1011, in join
+    self._wait_for_tstate_lock()
+  File "/usr/lib/python3.8/threading.py", line 1027, in _wait_for_tstate_lock
+    elif lock.acquire(block, timeout):
+KeyboardInterrupt

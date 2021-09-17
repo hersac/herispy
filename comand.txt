@@ -1,0 +1,1 @@
+@reboot cd /opt/HeriSpy/ && sh key.sh

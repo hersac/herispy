@@ -1,0 +1,34 @@
+GRACIAS POR TU DESCARGA! ESPERO UTILICES ESTE PROGRAMA PARA FINES DE SEGURIDAD O PERSONALES.
+
+Este es el Archivo de pasos para instalar este programa en cualquier Distribución Linux, si puedes mejorar este programa me gustaría ver tu proyecto.
+
+
+¡¡¡¡INSTALACIÓN!!!!
+
+Asumo que ya lo extrajiste del archivo .zip, si no lo has hecho por favor no seas la excepción.
+
+Método 1:
+1. Doble click al archivo install.sh y ejecutalo en una terminal
+
+Método 2: 
+
+1. Abre un terminal en linux (ctrl + alt + t)
+2. Navega a la carpeta en la que se encuentra (algunas distribuciones permiten abrir terminal desde la carpeta)
+3. Escribe el siguiente comando: sudo sh install.sh
+4. Espera que termine su instalación
+
+
+
+Nota 1: El programa se ejecutara una vez se reinicie el sistema
+
+Nota 2: El programa se aloja en la ruta /opt/HeriSpy/ alli se generaran los archivos .txt con la fecha y hora de cuando se inicia el programa y que tiene todo la información
+
+Nota 3: Si no funciona al iniciarse sigue los siguientes pasos:
+
+A) Abre un terminal y escribe: sudo crontab -e
+B) Te pedirá utilizar tu herramienta de preferencia, si no sabes de esto, escoge la opción 1 para usar nano.
+C)Ve hasta el final y copia el código: @reboot cd /opt/HeriSpy/ && sh key.sh
+D) Oprime ctrl + o y luego ctrl + x para guardar y salir
+E) Reinicia tu sistema.
+
+
